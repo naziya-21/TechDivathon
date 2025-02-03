@@ -5,6 +5,7 @@ import time
 from collections import defaultdict
 import random
 
+
 # Initialize session state variables
 if 'user_history' not in st.session_state:
     st.session_state.user_history = defaultdict(int)
